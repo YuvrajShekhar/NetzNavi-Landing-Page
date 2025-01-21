@@ -18,16 +18,16 @@ const About = () => {
             Was NetzNavi dir bietet
             </h1>
             <ul>
-                <li className="primary-text">
+                <li className="primary-text-about">
                 Umfassender Anbietervergleich: Vergleiche die Angebote aller Mobilfunkanbieter in einer Plattform.
                 </li>
-                <li className="primary-text">
+                <li className="primary-text-about">
                 Automatische Vertragsanalyse: Berechnung und Optimierung von Millionen Kombinationen in Echtzeit.
                 </li>
-                <li className="primary-text">
+                <li className="primary-text-about">
                 Individuelle Angebotserstellung: Passgenaue Lösungen für jeden Kunden, unabhängig vom Anbieter.
                 </li>
-                <li className="primary-text">
+                <li className="primary-text-about">
                 Einfache Nutzung im Browser: Starte direkt ohne Installation. Provisionsoptimierung: Finde nicht nur das beste Angebot für deine Kunden, sondern auch für dich.
                 </li>
             </ul>
