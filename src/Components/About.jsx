@@ -15,14 +15,22 @@ const About = () => {
         <div className='about-section-text-container'>
             <p className='primary-subheading'> About</p>
             <h1 className='primary-heading'> 
-                Need to fill in content here
+            Was NetzNavi dir bietet
             </h1>
-            <p className='primary-text'>
-                Need to fill in text here
-            </p>
-            <p className='primary-text'>
-                Need to fill in text here
-            </p>
+            <ul>
+                <li className="primary-text">
+                Umfassender Anbietervergleich: Vergleiche die Angebote aller Mobilfunkanbieter in einer Plattform.
+                </li>
+                <li className="primary-text">
+                Automatische Vertragsanalyse: Berechnung und Optimierung von Millionen Kombinationen in Echtzeit.
+                </li>
+                <li className="primary-text">
+                Individuelle Angebotserstellung: Passgenaue Lösungen für jeden Kunden, unabhängig vom Anbieter.
+                </li>
+                <li className="primary-text">
+                Einfache Nutzung im Browser: Starte direkt ohne Installation. Provisionsoptimierung: Finde nicht nur das beste Angebot für deine Kunden, sondern auch für dich.
+                </li>
+            </ul>
             <div className='about-buttons-container'>
                 <button className='secondary-button'>Learn More</button>
                 <button className='watch-video-button'>
