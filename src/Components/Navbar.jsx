@@ -50,7 +50,11 @@ const Navbar = () => {
         <a href="#testimonials">Testimonials</a>
         <a href="#contact">Contact</a>
 
-        <button className='primary-button'>Sign Up Now</button>      
+        <button
+        className="primary-button"
+        onClick={() => window.open("https://netznavi.net/", "_blank", "noopener,noreferrer")}>
+        Sign Up Now
+        </button>    
         </div>
         <div className='navbar-menu-container'>
             <HiOutlineBars3 onClick={()=> setOpenMenu(true)}/>
