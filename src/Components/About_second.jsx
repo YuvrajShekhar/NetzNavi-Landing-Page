@@ -3,45 +3,48 @@ import AboutBackground from '../Assets/about-background.png'
 import AboutBackgroundImage from '../Assets/about-background-image.png'
 import { BsFillPlayCircleFill } from 'react-icons/bs'
 
-const About = () => {
+const AboutSecond = () => {
   return (
     <div className='about-section-container'>
-        <div className="about-background-image-container">
+        {/* <div className="about-background-image-container">
             <img src={AboutBackground} alt="" />
-        </div>
-        <div className='about-section-image-container'>
-            <img src={AboutBackgroundImage} alt="" />
-        </div>
+        </div> */}
         <div className='about-section-text-container'>
             <p className='primary-subheading'> About</p>
             <h1 className='primary-heading'> 
-            Was NetzNavi dir bietet
+            Deine Vorteile...
             </h1>
             <ul>
                 <li className="primary-text-about">
-                Umfassender Anbietervergleich: Vergleiche die Angebote aller Mobilfunkanbieter in einer Plattform.
+                UIdeale Angebote ohne Wartezeit: Begeistere deine Kunden durch schnelle und treffsichere Beratung.
                 </li>
                 <li className="primary-text-about">
-                Automatische Vertragsanalyse: Berechnung und Optimierung von Millionen Kombinationen in Echtzeit.
+                Verkaufschancen maximieren: Vergleiche alle Anbieter und präsentiere das unschlagbar beste Angebot.
                 </li>
                 <li className="primary-text-about">
-                Individuelle Angebotserstellung: Passgenaue Lösungen für jeden Kunden, unabhängig vom Anbieter.
+                Intuitive Bedienung: Dank klarer Benutzeroberfläche wird die Nutzung kinderleicht.
                 </li>
                 <li className="primary-text-about">
-                Einfache Nutzung im Browser: Starte direkt ohne Installation. Provisionsoptimierung: Finde nicht nur das beste Angebot für deine Kunden, sondern auch für dich.
+                Immer aktuell: Aktionen und Rabatte aller Anbieter werden automatisch berücksichtigt.
+                </li>
+                <li className="primary-text-about">
+                Keine komplizierten Tools mehr: Vergiss PDFs, Excel-Tabellen und manuelle Berechnungen.
                 </li>
             </ul>
-            {/* <div className='about-buttons-container'>
+            
+
+        </div>
+        <div className='about-section-video-play-container'>
+        <div className='about-buttons-container'>
                 <button className='secondary-button'>Learn More</button>
                 <button className='watch-video-button'>
                     {" "}
                     <BsFillPlayCircleFill/> Watch Video
                 </button>
-            </div> */}
-
+            </div>
         </div>
     </div>
   )
 }
 
-export default About
+export default AboutSecond

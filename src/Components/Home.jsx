@@ -24,7 +24,7 @@ const Home = () => {
             Melden Sie sich jetzt an <FiArrowRight/>
             </button>
         </div>
-        <div className='home-image-container'>
+        <div className='home-image-section'>
               <img src={bannerImage} alt="" />
             </div>
         </div>
