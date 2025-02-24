@@ -24,7 +24,7 @@ const Work = () => {
   return (
     <div className='work-section-wrapper'>
         <div className='work-section-top'>
-            <p className='primary-subheading'>Merkmale</p>
+            <p className='primary-subheading'>Vorteile</p>
             <h1 className='primary-heading'>Wie es funktioniert</h1>
             <p className='primary-text'>
             NetzNavi wird täglich mit den neuesten Tarifen der Provider aktualisiert. Anhand der Kundenngaben wird dann die beste Kombination binnen Sekunden berechnet.

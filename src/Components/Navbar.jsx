@@ -41,19 +41,20 @@ const Navbar = () => {
   return (
     <nav>
         <div className="">
-        <img src={Logo} alt="" style={{ width: "150px", height: "100px" }} /> 
+            <a href='#home'>
+        <img src={Logo} alt="" style={{ width: "150px", height: "100px" }} /> </a>
         </div>
         <div className='navbar-links-container'>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#features">Merkmale</a>
-        <a href="#testimonials">Testimonials</a>
-        <a href="#contact">Contact</a>
+        {/* <a href="#home">Home</a> */}
+        <a href="#about">Funktionen</a>
+        <a href="#features">Vorteile</a>
+        <a href="#testimonials">Bewertungen</a>
+        <a href="#contact">Kontakt</a>
 
         <button
         className="primary-button"
         onClick={() => window.open("https://netznavi.net/", "_blank", "noopener,noreferrer")}>
-        Sign Up Now
+        Login
         </button>    
         </div>
         <div className='navbar-menu-container'>
