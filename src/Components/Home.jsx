@@ -1,7 +1,8 @@
 import React from 'react'
 import Navbar from './Navbar'
 import BannerBackground from '../Assets/home-banner-background.png'
-import bannerImage from '../Assets/home-banner-image.png'
+// import bannerImage from '../Assets/home-banner-image.png'
+import bannerImage from '../Assets/netznavi_landing01.webp'
 import {FiArrowRight} from "react-icons/fi"
 
 

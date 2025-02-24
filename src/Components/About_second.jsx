@@ -1,6 +1,6 @@
 import React from 'react'
 import AboutBackground from '../Assets/about-background.png'
-import AboutBackgroundImage from '../Assets/about-background-image.png'
+import AboutBackgroundImage from '../Assets/netznavi_landing3.webp'
 import { BsFillPlayCircleFill } from 'react-icons/bs'
 
 const AboutSecond = () => {
@@ -34,14 +34,17 @@ const AboutSecond = () => {
             
 
         </div>
+        <div className='about-section-image-container'>
+            <img src={AboutBackgroundImage} alt=""/>
+        </div>
         <div className='about-section-video-play-container'>
-        <div className='about-buttons-container'>
+        {/* <div className='about-buttons-container'>
                 <button className='secondary-button'>Learn More</button>
                 <button className='watch-video-button'>
                     {" "}
                     <BsFillPlayCircleFill/> Watch Video
                 </button>
-            </div>
+            </div> */}
         </div>
     </div>
   )
