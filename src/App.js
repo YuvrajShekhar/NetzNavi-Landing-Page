@@ -6,6 +6,7 @@ import Work from './Components/Work';
 import Testimonials from './Components/Testimonials';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
+import Slideshow from './Components/Slideshow';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About/>
       <AboutSecond />
       </div>
+      <div id="slideshow"><Slideshow /></div>
       <div id="features"><Work/></div>
       <div id="testimonials"><Testimonials/></div>
       <div id="contact"><Contact/></div>

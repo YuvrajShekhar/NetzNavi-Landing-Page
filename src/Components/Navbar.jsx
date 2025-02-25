@@ -46,8 +46,9 @@ const Navbar = () => {
         </div>
         <div className='navbar-links-container'>
         {/* <a href="#home">Home</a> */}
-        <a href="#about">Funktionen</a>
-        <a href="#features">Vorteile</a>
+        <a href="#about">Vorteile</a>
+        <a href="#slideshow">Slideshow</a>
+        <a href="#features">Funktionen</a>
         <a href="#testimonials">Bewertungen</a>
         <a href="#contact">Kontakt</a>
 

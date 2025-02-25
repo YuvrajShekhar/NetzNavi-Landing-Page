@@ -10,7 +10,7 @@ const AboutSecond = () => {
             <img src={AboutBackground} alt="" />
         </div> */}
         <div className='about-section-text-container'>
-            <p className='primary-subheading'> About</p>
+            <p className='primary-subheading'></p>
             <h1 className='primary-heading'> 
             Deine Vorteile...
             </h1>

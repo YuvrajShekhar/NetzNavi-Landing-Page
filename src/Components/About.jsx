@@ -14,7 +14,7 @@ const About = () => {
             <img src={AboutBackgroundImage} alt="" style={{paddingRight: "4%"}}/>
         </div>
         <div className='about-section-text-container'>
-            <p className='primary-subheading'> Funktionen</p>
+            <p className='primary-subheading'> Vorteile</p>
             <h1 className='primary-heading'> 
             Was NetzNavi dir bietet
             </h1>
