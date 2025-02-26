@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import BannerBackground from '../Assets/home-banner-background.png'
 // import bannerImage from '../Assets/home-banner-image.png'
-import bannerImage from '../Assets/netznavi_landing01.webp'
+import bannerImage from '../Assets/netznavi_landing1.webp'
 import {FiArrowRight} from "react-icons/fi"
 
 
@@ -26,7 +26,7 @@ const Home = () => {
             </button>
         </div>
         <div className='home-image-section'>
-              <img src={bannerImage} alt="" />
+              <img className="faded-image" src={bannerImage} alt="" />
             </div>
         </div>
     </div>

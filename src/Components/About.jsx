@@ -10,8 +10,8 @@ const About = () => {
         <div className="about-background-image-container">
             <img src={AboutBackground} alt="" />
         </div>
-        <div className='about-section-image-container'>
-            <img src={AboutBackgroundImage} alt="" style={{paddingRight: "4%"}}/>
+        <div className='about-section-image-container' style={{paddingRight: "4%"}}>
+            <img className="faded-image" src={AboutBackgroundImage} alt="" />
         </div>
         <div className='about-section-text-container'>
             <p className='primary-subheading'> Vorteile</p>

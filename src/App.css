@@ -93,6 +93,7 @@ nav {
   flex: 1;
   margin-top: 150px;
   box-shadow: #9575CC;
+  overflow: hidden;
 }
 .home-text-section {
   flex: 1;
@@ -465,10 +466,11 @@ nav {
   align-items: center; /* Centers vertically */
   height: 100%;
   padding: 10px;
+  flex-direction: column;
+  text-align: center;
 }
 
 .each-slide>div {
-  display: flex; /* Needed to properly center the image */
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -482,6 +484,10 @@ nav {
   object-fit: contain; /* Maintains aspect ratio without cropping */
   width: 100%; /* Ensures proper scaling */
   height: auto; /* Ensures proper scaling */
+  border: 5px solid #7C45C3; /* Purple border */
+  border-radius: 12px; /* Slightly rounded edges */
+  /* Add a soft shadow to make it stand out */
+  box-shadow: 0px 4px 15px rgba(128, 0, 128, 0.3);
 }
 
 .slideshow-section-wrapper{
@@ -495,6 +501,25 @@ nav {
   .each-slide img {
       max-width: 90vw; /* Makes sure image is not too large on small screens */
       max-height: 90vw; /* Keeps a square ratio */
+      border-width: 2px;
   }
 }
+
+.faded-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 0.92;
+  /* Apply fading effect */
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.image-caption {
+  font-size: 18px;
+  color: #666;
+  margin-top: 8px;
+  font-style: italic;
+}
+
 

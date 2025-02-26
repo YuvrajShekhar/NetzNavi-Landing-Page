@@ -9,7 +9,7 @@ const Contact = () => {
         <h1 className='primary-heading'>Schreiben sie uns und wir kontaktieren Sie</h1>
         <div className='contact-form-container'>
             <input type="text" placeholder='yourmail@gmail.com'/>
-            <button className='secondary-button'>einreichen</button>
+            <button className='secondary-button'>anfragen</button>
         </div>
     </div>
   )

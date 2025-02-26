@@ -34,8 +34,8 @@ const AboutSecond = () => {
             
 
         </div>
-        <div className='about-section-image-container'>
-            <img src={AboutBackgroundImage} alt=""/>
+        <div className='about-section-image-container' style={{paddingLeft: "2%"}}>
+            <img className="faded-image" src={AboutBackgroundImage} alt=""/>
         </div>
         <div className='about-section-video-play-container'>
         {/* <div className='about-buttons-container'>
