@@ -22,7 +22,7 @@ const Slideshow = () => {
 
   return (
     <div className='slideshow-section-wrapper'>
-    <p className='primary-subheading'>SlideShow</p>
+    <p className='primary-subheading'>Features</p>
     <Slide arrows={true} infinite={true}>
         {images.map((image, index) => (
             <div className="each-slide" key={index}>

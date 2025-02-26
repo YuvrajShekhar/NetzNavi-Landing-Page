@@ -522,4 +522,47 @@ nav {
   font-style: italic;
 }
 
+.footer-impressum {
+  margin-top: 1rem; /* Add space between footer content and Impressum link */
+  text-align: center; /* Center the link */
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.footer-impressum a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-impressum a:hover {
+  text-decoration: underline;
+}
+
+.copyright-page {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.copyright-page h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.copyright-page p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.copyright-page a {
+  color: #000;
+  text-decoration: none;
+}
+
+.copyright-page a:hover {
+  text-decoration: underline;
+}
+
+
 

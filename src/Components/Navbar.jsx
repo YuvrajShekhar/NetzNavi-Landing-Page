@@ -55,7 +55,7 @@ const Navbar = () => {
         <button
         className="primary-button"
         onClick={() => window.open("https://netznavi.net/", "_blank", "noopener,noreferrer")}>
-        Login
+        Zur App
         </button>    
         </div>
         <div className='navbar-menu-container'>

@@ -1,4 +1,5 @@
 import React from 'react'
+import {FiArrowRight} from "react-icons/fi"
 
 const Contact = () => {
   return (
@@ -11,6 +12,9 @@ const Contact = () => {
             <input type="text" placeholder='yourmail@gmail.com'/>
             <button className='secondary-button'>anfragen</button>
         </div>
+        <button className='secondary-button' style={{marginTop:'2%'}}>
+            Melden Sie sich jetzt an <FiArrowRight/>
+            </button>
     </div>
   )
 }

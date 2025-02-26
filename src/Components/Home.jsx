@@ -21,9 +21,9 @@ const Home = () => {
             <p className='primary-text'>
             NetzNavi hebt deinen Verkaufsprozess auf ein neues Level, indem es alle Tarife  der Mobilfunkprovider vergleicht. Dank smarter Technologie erhältst du in Sekundenschnelle die besten Vertragskombinationen für deine Kunden - und maximierst dabei deine Provision.
             </p>
-            <button className='secondary-button'>
+            {/* <button className='secondary-button'>
             Melden Sie sich jetzt an <FiArrowRight/>
-            </button>
+            </button> */}
         </div>
         <div className='home-image-section'>
               <img className="faded-image" src={bannerImage} alt="" />

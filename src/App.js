@@ -7,14 +7,31 @@ import Testimonials from './Components/Testimonials';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import Slideshow from './Components/Slideshow';
+import CopyrightPage from "./Components/CopyrightPage"; 
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; 
 
 function App() {
+  return (
+    <Router>
+      <Routes>
+        {/* Main website layout */}
+        <Route path="/" element={<MainLayout />} />
+
+        {/* Copyright page as a full separate page */}
+        <Route path="/copyright" element={<CopyrightPage />} />
+      </Routes>
+    </Router>
+  );
+}
+
+// Define the main layout with homepage sections
+const MainLayout = () => {
   return (
     <div className="App">
       <div id="home"><Home /></div>
       <div id="about">
-      <About/>
-      <AboutSecond />
+        <About/>
+        <AboutSecond />
       </div>
       <div id="slideshow"><Slideshow /></div>
       <div id="features"><Work/></div>
@@ -23,6 +40,6 @@ function App() {
       <Footer/>
     </div>
   );
-}
+};
 
 export default App;

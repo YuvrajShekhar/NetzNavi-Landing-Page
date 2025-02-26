@@ -4,9 +4,11 @@ import { BsTwitter } from "react-icons/bs";
 import { SiLinkedin } from "react-icons/si";
 import { BsYoutube } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
+    <div>
     <div className="footer-wrapper">
       <div className="footer-section-one">
         <div className="footer-logo-container">
@@ -34,6 +36,10 @@ const Footer = () => {
           <span>Geschäftsbedingungen</span>
           <span>Datenschutzrichtlinie</span>
         </div>
+      </div>
+    </div>
+    <div className="footer-impressum">
+    <Link to="/copyright">Impressum</Link> 
       </div>
     </div>
   );
