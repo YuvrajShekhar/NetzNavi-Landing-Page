@@ -29,8 +29,7 @@ const Testimonials = () => (
       <p className="primary-subheading">Bewertungen</p>
       <h1 className="primary-heading">Was sagen sie?</h1>
       <p className="primary-text">
-        Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et elit.
-        Dolor turpis molestie dui magnis facilisis at fringilla quam.
+      Lesen Sie, was unsere Kunden über ihre Erfahrungen sagen
       </p>
     </div>
     <Slide arrows={true} infinite={true}>

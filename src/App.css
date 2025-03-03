@@ -564,5 +564,18 @@ nav {
   text-decoration: underline;
 }
 
+.slideshow-caption{
+  font-size: 22px;
+  color: #363636;
+  margin-top: 8px;
+  font-style: bold;
+  margin-top: 2rem;
+}
+
+.copyright-heading{
+  margin-top: 1.5rem;
+  margin-bottom: 0.2rem;
+}
+
 
 

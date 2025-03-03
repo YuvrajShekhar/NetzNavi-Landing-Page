@@ -13,10 +13,10 @@ const Slideshow = () => {
 //   ];
   
   const images = [
-    { src: auswahl1, caption: "insert caption 1 here" },
-    { src: auswahl2, caption: "insert caption 2 here" },
-    { src: beispiel1, caption: "insert caption 3 here" },
-    { src: beispiel2, caption: "insert caption 4 here" }
+    { src: auswahl1, caption: "Wähle gewünschte Anbieter aus und trage Kundenwünsche ein" },
+    { src: auswahl2, caption: "Wähle zusätzliche Optionen aus" },
+    { src: beispiel1, caption: "Vergleiche die besten Kombinationen der Anbieter untereinander (Provisionen sind hier ausgeblendet)" },
+    { src: beispiel2, caption: "Suche aus bis zu zehn Angeboten das Beste für den Kunden aus  (Provisionen sind hier ausgeblendet)" }
 ];
 
 
@@ -33,6 +33,7 @@ const Slideshow = () => {
             </div>
         ))}
     </Slide>
+    <p className='slideshow-caption'>Für eine vollständige Funktionsübersicht einfach anfragen</p>
 </div>
 
   );
