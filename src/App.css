@@ -75,6 +75,7 @@ nav {
   font-size: 1.5rem;
   cursor: pointer;
 }
+
 .home-banner-container {
   position: relative;
   display: flex;
@@ -576,6 +577,5 @@ nav {
   margin-top: 1.5rem;
   margin-bottom: 0.2rem;
 }
-
 
 

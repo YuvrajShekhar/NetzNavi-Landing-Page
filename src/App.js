@@ -28,6 +28,7 @@ function App() {
 const MainLayout = () => {
   return (
     <div className="App">
+      
       <div id="home"><Home /></div>
       <div id="about">
         <About/>
