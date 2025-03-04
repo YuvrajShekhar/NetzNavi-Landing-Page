@@ -41,7 +41,6 @@ const MainLayout = () => {
         <div id="contact"><Contact/></div>
       </div>
       <Footer />
-      <ContactUs />
     </>
   );
 };

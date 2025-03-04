@@ -16,7 +16,7 @@ const AboutSecond = () => {
             </h1>
             <ul>
                 <li className="primary-text-about">
-                UIdeale Angebote ohne Wartezeit: Begeistere deine Kunden durch schnelle und treffsichere Beratung.
+                Ideale Angebote ohne Wartezeit: Begeistere deine Kunden durch schnelle und treffsichere Beratung.
                 </li>
                 <li className="primary-text-about">
                 Verkaufschancen maximieren: Vergleiche alle Anbieter und präsentiere das unschlagbar beste Angebot.

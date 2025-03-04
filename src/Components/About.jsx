@@ -29,17 +29,12 @@ const About = () => {
                 Individuelle Angebotserstellung: Passgenaue Lösungen für jeden Kunden, unabhängig vom Anbieter.
                 </li>
                 <li className="primary-text-about">
-                Einfache Nutzung im Browser: Starte direkt ohne Installation. Provisionsoptimierung: Finde nicht nur das beste Angebot für deine Kunden, sondern auch für dich.
+                Einfache Nutzung im Browser: Starte direkt ohne Installation.
+                </li>
+                <li className="primary-text-about">
+                Provisionsoptimierung: Finde nicht nur das beste Angebot für deine Kunden, sondern auch für dich.
                 </li>
             </ul>
-            {/* <div className='about-buttons-container'>
-                <button className='secondary-button'>Learn More</button>
-                <button className='watch-video-button'>
-                    {" "}
-                    <BsFillPlayCircleFill/> Watch Video
-                </button>
-            </div> */}
-
         </div>
     </div>
   )

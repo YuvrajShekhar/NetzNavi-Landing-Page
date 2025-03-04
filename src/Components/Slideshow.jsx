@@ -13,7 +13,7 @@ const Slideshow = () => {
 //   ];
   
   const images = [
-    { src: auswahl1, caption: "Wähle gewünschte Anbieter aus und trage Kundenwünsche ein" },
+    { src: auswahl1, caption: "Wähle deine Anbieter aus und trage Kundenwünsche ein" },
     { src: auswahl2, caption: "Wähle zusätzliche Optionen aus" },
     { src: beispiel1, caption: "Vergleiche die besten Kombinationen der Anbieter untereinander (Provisionen sind hier ausgeblendet)" },
     { src: beispiel2, caption: "Suche aus bis zu zehn Angeboten das Beste für den Kunden aus  (Provisionen sind hier ausgeblendet)" }
