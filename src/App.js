@@ -8,7 +8,6 @@ import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import Slideshow from './Components/Slideshow';
 import CopyrightPage from "./Components/CopyrightPage"; 
-import ContactUs from './Components/send_mail';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; 
 
 function App() {
