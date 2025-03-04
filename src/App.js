@@ -27,19 +27,20 @@ function App() {
 // Define the main layout with homepage sections
 const MainLayout = () => {
   return (
-    <div className="App">
-      
-      <div id="home"><Home /></div>
-      <div id="about">
-        <About/>
-        <AboutSecond />
+    <>
+      <div className="App">
+        <div id="home"><Home /></div>
+        <div id="about">
+          <About/>
+          <AboutSecond />
+        </div>
+        <div id="slideshow"><Slideshow /></div>
+        <div id="features"><Work/></div>
+        <div id="testimonials"><Testimonials/></div>
+        <div id="contact"><Contact/></div>
       </div>
-      <div id="slideshow"><Slideshow /></div>
-      <div id="features"><Work/></div>
-      <div id="testimonials"><Testimonials/></div>
-      <div id="contact"><Contact/></div>
-      <Footer/>
-    </div>
+      <Footer />
+    </>
   );
 };
 
