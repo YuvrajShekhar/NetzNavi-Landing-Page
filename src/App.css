@@ -76,6 +76,8 @@ nav {
   cursor: pointer;
 }
 
+
+
 .home-banner-container {
   position: relative;
   display: flex;
@@ -453,12 +455,30 @@ nav {
   .App {
     max-width: 95vw;
   }
+  .ListItemButton a {
+    text-decoration: none;
+    color: inherit;
+  }
 }
 @media (max-width: 600px) {
   .home-bannerImage-container,
   .about-background-image-container {
     display: none;
   }
+}
+
+.nav-mob-text {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: 100%;
+  text-align: right;
+  color: #7C45C3;
+}
+
+.nav-mob-list {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .each-slide {

@@ -14,6 +14,7 @@ import InfoIcon from '@mui/icons-material/Info';
 import StarIcon from '@mui/icons-material/Star';
 
 
+
 const Navbar = () => {
 
     const [openMenu, setOpenMenu] = useState(false)
@@ -72,17 +73,18 @@ const Navbar = () => {
         </div>
         <Drawer open={openMenu} onClose={()=> setOpenMenu(false)} anchor="right">
             <Box sx={{width : 250}} role="presentation" onClick={()=>setOpenMenu(false)} onKeyDown={()=>setOpenMenu(false)} >
-                <List>
-                    {menuOptions.map((item)=> (
-                        <ListItem key={item.text} disablePadding>
-                            <ListItemButton>
-                                {/* <ListItemIcon>{item.icon}</ListItemIcon> */}
-                                <a href={item.target}><ListItemText primary={item.text}/> </a>
-                            </ListItemButton>
+            <List>
+                {menuOptions.map((item) => (
+                    <ListItem key={item.text} disablePadding>
+                    <ListItemButton className='nav-mob-list'>
+                        <a href={item.target} className='nav-mob-text'>
+                        <ListItemText primary={item.text} />
+                        </a>
+                    </ListItemButton>
+                    </ListItem>
+                ))}
+            </List>
 
-                        </ListItem>
-                    ))}
-                </List>
             </Box>
 
         </Drawer>

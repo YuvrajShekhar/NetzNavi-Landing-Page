@@ -12,7 +12,7 @@ const Contact = () => {
             <input type="text" placeholder='yourmail@gmail.com'/>
             <button className='secondary-button'>anfragen</button>
         </div>
-        <button className='secondary-button' style={{marginTop:'2%'}}>
+        <button className='secondary-button' style={{marginTop:'5%'}} onClick={() => window.open("https://netznavi.net/", "_blank", "noopener,noreferrer")}>
             Melden Sie sich jetzt an <FiArrowRight/>
             </button>
     </div>
