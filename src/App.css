@@ -72,7 +72,7 @@ nav {
 .navbar-cart-icon {
   font-size: 1.15rem;
 }
-.primary-button:hover {
+.primary-button {
   background-color: rgb(234, 234, 234);
 }
 .navbar-menu-container svg {
