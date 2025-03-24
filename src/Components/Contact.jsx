@@ -35,14 +35,14 @@ const Contact = () => {
   return (
     <div className='contact-page-wrapper'>
       <h1 className='primary-heading'>
-        Haben wir ihr Interesse geweckt?
+      Haben wir dein Interesse geweckt?
       </h1>
-      <h1 className='primary-heading'>Schreiben sie uns und wir kontaktieren Sie</h1>
+      <h1 className='primary-heading'>Schreib uns und wir kontaktieren dich</h1>
       <form ref={form} onSubmit={sendEmail}>
         <div className='contact-form-container'>
           <input type="text" name="user_name" placeholder='Dein Name' />
           <input type="email" name="user_email" placeholder="Dein Email" required />
-          <input type="text" name="message" placeholder='Schreiben Sie uns hier' />
+          <textarea name="message" placeholder="Schreib uns hier" className="text-box"></textarea>
           <button className='secondary-button' type="submit" value="Send">anfragen</button>
           {messageSent && (
             <div className="success-message">
@@ -51,8 +51,8 @@ const Contact = () => {
           )}
         </div>
       </form>
-      <button className='secondary-button' style={{ marginTop: '5%' }} onClick={() => window.open("https://netznavi.net/", "_blank", "noopener,noreferrer")}>
-        Melden Sie sich jetzt an <FiArrowRight />
+      <button className='secondary-button' style={{ marginTop: '5%' }} onClick={() => window.open("https://app.netznavi.net/", "_blank", "noopener,noreferrer")}>
+      Jetzt anmelden <FiArrowRight />
       </button>
     </div>
   )
