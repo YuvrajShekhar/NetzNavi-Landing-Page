@@ -12,6 +12,9 @@ const Footer = () => {
         <div className="footer-impressum">
           <Link to="/copyright">Impressum</Link>
         </div>
+        <div className="footer-impressum">
+          <Link to="/PrivacyPolicy">Datenschutz</Link>
+        </div>
         <div className="footer-section-columns">
           <span>info@netznavi.net</span>
         </div>

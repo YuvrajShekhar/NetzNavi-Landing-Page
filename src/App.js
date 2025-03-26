@@ -8,6 +8,7 @@ import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import Slideshow from './Components/Slideshow';
 import CopyrightPage from "./Components/CopyrightPage"; 
+import PrivacyPolicy from './Components/PrivacyPolicy';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
 
         {/* Copyright page as a full separate page */}
         <Route path="/copyright" element={<CopyrightPage />} />
+        <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
       </Routes>
     </Router>
   );
